@@ -20,7 +20,7 @@ addEventListener('load', function() {
         mouseX = e.clientX;
         mouseY = e.clientY;
         console.log(x, y);
-    });
+    })
     
     function animate() {
         requestAnimationFrame(animate);
