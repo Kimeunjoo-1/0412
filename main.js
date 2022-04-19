@@ -31,7 +31,7 @@ addEventListener('load', function() {
 
         vertical.style.transform = 'translateX(${curX}px)';
         horizontal.style.transform = 'translateY(${curY}px)';
-        target.style.transform = 'translate(${curX = targetHalfWidth}px, ${curY - targetHalfHeight}px)';
+        target.style.transform = 'translate(${curX-targetHalfWidth}px, ${curY-targetHalfHeight}px)';
         tag.style.transform = 'translate(${curX}px, ${curY}px)';
         tag.innerHTML = '${Math.ceil(curX)}px ${Math.ceil(curY)}px';
     }
